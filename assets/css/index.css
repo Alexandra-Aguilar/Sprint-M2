@@ -1,0 +1,58 @@
+body{
+    width: 100%;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+main section{
+    width: 100%;
+    
+}
+.container {
+    width: 100%;
+    height: auto;
+}
+.main-container-quienes{
+    width: 100%;
+    height: 250px;
+}
+
+.section-contaier-img{
+    width: 100%;
+    height: 90%;
+}
+
+
+
+
+.container-img{
+    margin-top: 50px;
+    width: 100%;
+   height: 100%;
+   margin-bottom: 160px;
+}
+.container-img img {
+    width: 13em;
+    height: 13em;
+}
+
+header .navbar-brand img {
+    width: 40px;
+}
+
+#fecha{
+    font-size: 35px;
+    display: none;
+}
+
+footer{
+    background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+    height: 200px;
+    
+    
+}
+footer a {
+    color: white;
+    
+}
+
