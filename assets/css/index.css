@@ -49,14 +49,14 @@ header .navbar-brand img {
     display: none;
 }
 
-footer{
-    background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
-    height: 200px;
-    
-    
-}
 footer a {
     color: white;
-    
+    text-decoration: none;
 }
+
+footer a:hover {color:white;}
+
+.bg-morado1 { background-image: linear-gradient(to left,#ff88b3, #8e56f3);}
+
+.bg-morado2 { background-image: linear-gradient(to left, #8e56f3, #ff88b3);}
 

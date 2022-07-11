@@ -18,3 +18,5 @@ main input{
     font-size: 35px;
     display: none;
 }
+
+.bg-morado1 { background-image: linear-gradient(to left,#ff88b3, #8e56f3);}
