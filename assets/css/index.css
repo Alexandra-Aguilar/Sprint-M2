@@ -26,6 +26,19 @@ color: #4158D0;
     height: 90%;
 }
 
+.flex-container-boton div {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+button {
+    background-color: aqua;
+    color:#1c3643;
+    width: 100px;
+    border-radius: 20px;
+}
+
 
 
 
