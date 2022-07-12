@@ -42,35 +42,52 @@
             </div>
         </nav>
     </header>
+    
+    <section class="container-contacto">
+      <div class="section-container-contacto">
+        <form action="">
+          <div class="mb-5">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="@usuario">
+         </div>
+  
+  
+          <div class="mb-5">
+             <label for="rut" class="form-label">Ingrese su Rut</label>
+            <input type="text" class="form-control" id="rut" required oninput="checkRut(this)" placeholder="Ingrese RUT">
+            <input class="btn btn-primary mt-3" type="submit" value="Comprobar">
 
-    <section>
-      <form action="">
+
+          </div>
+       
+  
+          <div class="mb-5 ">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="name@example.com">
+              <input class="btn btn-primary mt-3" type="submit" value="Comprobar" id="comprobar">
+          </div>
+  
+         
+  
         
-            <div class="mb-5">
-                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="@usuario">
-            </div>
+          <div class=" mb-3">
+              <label for="Comentarios" class="form-label">Comentarios</label>
+              <textarea class="form-control" id="Comentarios" rows="3"></textarea>
+          </div>
+     
+     
+         <div>
+          <button type="submit" class="btn btn-primary ">Enviar</button>
+          <button type="reset" class="btn btn-secondary ">Limpiar</button>
+         </div>
+          
+          
+        </form>
+      </div>
+    </section>    
+         
 
-            <div class="mb-5 ">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            <input class="btn btn-primary" type="submit" value="Comprobar" id="comprobar">
-
-            </div>
-
-            
-            <div class=" mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-         
-         
-            <button type="submit" class="btn btn-primary">Enviar</button>
-            <button type="reset" class="btn btn-secondary">Limpiar</button>
-      </form>
-         
-         
-   </section>
+    
 <div class="container my-3 text-center">
       <button id="btnfecha" type="button" class="btn btn-primary"> Ver fecha</button>
       <div id="fecha" class="text-center"></div>
