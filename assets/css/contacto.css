@@ -19,4 +19,18 @@ main input{
     display: none;
 }
 
+.bg-morado1 { background-image: linear-gradient(to left,#ff88b3, #8e56f3);
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {color:white;}
+
 .bg-morado1 { background-image: linear-gradient(to left,#ff88b3, #8e56f3);}
+
+.bg-morado2 { background-image: linear-gradient(to left, #8e56f3, #ff88b3);}
+
+.bg-sale {background-image: linear-gradient(#81ffe2, #d9a6ff);}
