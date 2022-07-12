@@ -81,3 +81,9 @@ font-size: 10px;}
 #saleend {color: white;
     font-size: 30px;
     font-weight: bolder;}
+
+#saletitle {
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
