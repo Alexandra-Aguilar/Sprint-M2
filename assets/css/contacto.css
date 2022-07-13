@@ -1,12 +1,12 @@
-
-body{
+body {
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
-main{
+
+main {
     width: 100%;
     height: auto;
-    
+
 }
 
 header .navbar-brand img {
@@ -15,7 +15,7 @@ header .navbar-brand img {
 
 
 
-.container-contacto{
+.container-contacto {
 
     width: 100%;
     height: auto;
@@ -24,11 +24,11 @@ header .navbar-brand img {
     align-items: center;
     justify-content: center;
 
-    
+
 }
 
-.section-container-contacto{
-    
+.section-container-contacto {
+
     width: 60%;
     max-width: 600px;
     height: auto;
@@ -38,23 +38,25 @@ header .navbar-brand img {
     padding: 10px;
 }
 
-.section-container-contacto form div label{
+.section-container-contacto form div label {
     font-weight: bold;
 }
-.form-control{
+
+.form-control {
     background-color: rgba(250, 235, 215, 0.808);
 }
 
-main input{
+main input {
     text-align: center;
 }
 
-#fecha{
+#fecha {
     font-size: 35px;
     display: none;
 }
 
-.bg-morado1 { background-image: linear-gradient(to left,#ff88b3, #8e56f3);
+.bg-morado1 {
+    background-image: linear-gradient(to left, #ff88b3, #8e56f3);
 }
 
 footer a {
@@ -62,14 +64,22 @@ footer a {
     text-decoration: none;
 }
 
-footer a:hover {color:white;}
+footer a:hover {
+    color: white;
+}
 
-.bg-morado1 { background-image: linear-gradient(to left,#ff88b3, #8e56f3);}
+.bg-morado1 {
+    background-image: linear-gradient(to left, #ff88b3, #8e56f3);
+}
 
-.bg-morado2 { background-image: linear-gradient(to left, #8e56f3, #ff88b3);}
+.bg-morado2 {
+    background-image: linear-gradient(to left, #8e56f3, #ff88b3);
+}
 
-.bg-sale {background-image: linear-gradient(#81ffe2, #d9a6ff);}
+.bg-sale {
+    background-image: linear-gradient(#81ffe2, #d9a6ff);
+}
 
-.medios-pago{
-    width: 250px;  
+.medios-pago {
+    width: 250px;
 }

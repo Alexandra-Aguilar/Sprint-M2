@@ -1,24 +1,27 @@
-body{
+body {
     width: 100%;
     background-color: #21D4FD;
-background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 
 }
 
-main section{
+main section {
     width: 100%;
-    
+
 }
+
 .container {
     width: 100%;
     height: auto;
 }
-.main-container-quienes{
+
+.main-container-quienes {
     width: 100%;
     height: 250px;
 }
-.main-container-quienes div p{
-color: #4158D0;
+
+.main-container-quienes div p {
+    color: #4158D0;
 }
 
 /* .section-contaier-img{
@@ -34,24 +37,26 @@ color: #4158D0;
 
 button {
     background-color: aqua;
-    color:#21a3e4;
+    color: #21a3e4;
     width: 100px;
     border-radius: 20px;
 }
+
 .carousel-item img {
     width: 40%;
     min-width: 300px;
     max-width: 400px;
     height: 45%;
     max-height: 350px;
-    
+
     min-height: 300px;
     margin: 0 auto;
-    
+
 }
-.img-carrusel{
-   width:450px ;
-   height: 450px;
+
+.img-carrusel {
+    width: 450px;
+    height: 450px;
 }
 
 
@@ -71,7 +76,7 @@ header .navbar-brand img {
     width: 40px;
 }
 
-#fecha{
+#fecha {
     font-size: 35px;
     display: none;
 }
@@ -81,20 +86,32 @@ footer a {
     text-decoration: none;
 }
 
-footer a:hover {color:white;}
+footer a:hover {
+    color: white;
+}
 
-.bg-morado1 { background-image: linear-gradient(to left,#ff88b3, #8e56f3);}
+.bg-morado1 {
+    background-image: linear-gradient(to left, #ff88b3, #8e56f3);
+}
 
-.bg-morado2 { background-image: linear-gradient(to left, #8e56f3, #ff88b3);}
+.bg-morado2 {
+    background-image: linear-gradient(to left, #8e56f3, #ff88b3);
+}
 
-.bg-sale {background-image: linear-gradient(#81ffe2, #d9a6ff);}
+.bg-sale {
+    background-image: linear-gradient(#81ffe2, #d9a6ff);
+}
 
-#saletext {color: white;
-font-size: 10px;}
+#saletext {
+    color: white;
+    font-size: 10px;
+}
 
-#saleend {color: white;
+#saleend {
+    color: white;
     font-size: 20px;
-    font-weight: bolder;}
+    font-weight: bolder;
+}
 
 #saletitle {
     color: white;
@@ -102,6 +119,6 @@ font-size: 10px;}
     font-weight: bolder;
 }
 
-.medios-pago{
-   width: 250px;  
+.medios-pago {
+    width: 250px;
 }
